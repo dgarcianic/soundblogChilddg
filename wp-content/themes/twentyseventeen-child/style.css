@@ -10,6 +10,35 @@ Version: 0.1.0
 
 /*test*/
 p {
-    color: pink;
+    color: #355e3b;
+    font-family: "PT Serif"
 }
 
+.site-title {
+    font-family: Roboto;
+}
+
+.site-branding {display:none}
+
+.metaslider .caption,
+.metaslider .cs-title,
+.metaslider .nivo-caption {font-size:.5em}
+
+label {color: #767676;
+	font-weight: 400}
+
+input[type="submit"] {background-color: #767676}
+
+input[type="submit"]:hover {background-color: #222}
+
+.single-featured-image-header {display: none}
+
+.wptl-social-share {display: none}
+
+.timeline-navigation div > a {background-color: #595630}
+
+.wpex-timeline-list.show-icon .wpex-timeline > li .wpex-content-left .tlday {font-size: 40px;}
+
+.wpex-single-timeline {font-size: 1em;}
+
+.wpex .wptl-readmore {display: none;}
