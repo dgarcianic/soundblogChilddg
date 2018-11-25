@@ -13,3 +13,27 @@ add_action( 'wp_enqueue_scripts', 'my_google_fonts' );
 function my_google_fonts() {
     wp_enqueue_style( 'my-google-fonts', 'https://fonts.googleapis.com/css?family=Roboto', false );
 }
+
+// // doessoemthing
+// function twentyseventeen_posted_on() {
+
+//     if (get_field('contributor')){
+//     $the_contributor = get_field('contributor');
+//     $contributor = sprintf(
+// 		/* translators: %s: post author */
+	
+// 		'and' . '<span class="author vcard"><a class="url fn n" href="' . esc_url( get_author_posts_url( $the_contributor( 'ID' ) ) ) . '">' . '' . $the_contributor['nickname'] . '</a></span>'
+// 	);
+//     }
+
+
+// 	// Get the author name; wrap it in a link.
+// 	$byline = sprintf(
+// 		/* translators: %s: post author */
+// 		__( 'by %s', 'twentyseventeen' ),
+// 		'<span class="author vcard"><a class="url fn n" href="' . esc_url( get_author_posts_url( get_the_author_meta( 'ID' ) ) ) . '">' . get_the_author() . '</a></span>'
+// 	);
+
+// 	// Finally, let's write all of this to the page.
+// 	echo '<span class="posted-on">' . twentyseventeen_time_link() . '</span><span class="byline"> ' . $byline . '</span>';
+// }

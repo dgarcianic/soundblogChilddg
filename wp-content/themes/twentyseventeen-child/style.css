@@ -42,3 +42,34 @@ input[type="submit"]:hover {background-color: #222}
 .wpex-single-timeline {font-size: 1em;}
 
 .wpex .wptl-readmore {display: none;}
+
+/* */
+
+.info-box {
+    margin-bottom: 2rem;
+    padding: 0 2rem 2rem;
+    background: #c3c3c3;
+}
+
+.info-box h1 {
+    background: black;
+    margin-left: -2rem;
+    margin-right: -2rem;
+    padding: .5rem 2rem;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.info-box p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+}
+
+.related-list a {
+    text-decoration: none;
+}
+
+.related-list a:hover > h3 {
+    text-decoration: underline;
+}
