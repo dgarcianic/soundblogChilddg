@@ -101,3 +101,6 @@ Stack trace:
 #6 /Users/student/Desktop/soundblogChilddg/wp-blog-header.php(19): require_once('/Users/student/...')
 #7 /Users/student/Desk in /Users/student/Desktop/soundblogChilddg/wp-content/themes/twentyseventeen-child/functions.php on line 25
 [25-Nov-2018 18:55:49 UTC] PHP Parse error:  syntax error, unexpected 'endforeach' (T_ENDFOREACH), expecting ',' or ';' in /Users/student/Desktop/soundblogChilddg/wp-content/themes/twentyseventeen-child/template-parts/post/content.php on line 78
+[25-Nov-2018 19:15:30 UTC] PHP Notice:  Trying to get property of non-object in /Users/student/Desktop/soundblogChilddg/wp-includes/post-template.php on line 298
+[25-Nov-2018 19:15:30 UTC] PHP Notice:  Trying to get property of non-object in /Users/student/Desktop/soundblogChilddg/wp-includes/post-template.php on line 298
+[25-Nov-2018 19:15:30 UTC] PHP Notice:  Trying to get property of non-object in /Users/student/Desktop/soundblogChilddg/wp-includes/post-template.php on line 298
