@@ -26,3 +26,14 @@ GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with Concerts Custom Post. If not, see {URI to Plugin License}.
 */
+
+function my_custom_posttypes() {
+    $args = array(
+        'public' => true,
+        'label' => 'Concerts'
+    );
+    register_post_type( 'concerts', $args);
+ 
+}
+add_action ( 'init', 'my_custom_posttypes' );
+
