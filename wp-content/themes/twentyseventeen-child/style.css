@@ -43,7 +43,7 @@ input[type="submit"]:hover {background-color: #222}
 
 .wpex .wptl-readmore {display: none;}
 
-/* */
+/* advanced custom fields */
 
 .info-box {
     margin-bottom: 2rem;
@@ -73,3 +73,7 @@ input[type="submit"]:hover {background-color: #222}
 .related-list a:hover > h3 {
     text-decoration: underline;
 }
+
+/* concerts */
+
+.concerts p {color: blue;}
