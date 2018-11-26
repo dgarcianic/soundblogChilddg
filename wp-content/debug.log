@@ -104,3 +104,60 @@ Stack trace:
 [25-Nov-2018 19:15:30 UTC] PHP Notice:  Trying to get property of non-object in /Users/student/Desktop/soundblogChilddg/wp-includes/post-template.php on line 298
 [25-Nov-2018 19:15:30 UTC] PHP Notice:  Trying to get property of non-object in /Users/student/Desktop/soundblogChilddg/wp-includes/post-template.php on line 298
 [25-Nov-2018 19:15:30 UTC] PHP Notice:  Trying to get property of non-object in /Users/student/Desktop/soundblogChilddg/wp-includes/post-template.php on line 298
+[26-Nov-2018 17:02:02 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_field() in /Users/student/Desktop/soundblogChilddg/wp-content/themes/twentyseventeen-child/template-parts/post/content.php:60
+Stack trace:
+#0 /Users/student/Desktop/soundblogChilddg/wp-includes/template.php(690): require()
+#1 /Users/student/Desktop/soundblogChilddg/wp-includes/template.php(647): load_template('/Users/student/...', false)
+#2 /Users/student/Desktop/soundblogChilddg/wp-includes/general-template.php(155): locate_template(Array, true, false)
+#3 /Users/student/Desktop/soundblogChilddg/wp-content/themes/twentyseventeen/index.php(45): get_template_part('template-parts/...', '')
+#4 /Users/student/Desktop/soundblogChilddg/wp-includes/template-loader.php(74): include('/Users/student/...')
+#5 /Users/student/Desktop/soundblogChilddg/wp-blog-header.php(19): require_once('/Users/student/...')
+#6 /Users/student/Desktop/soundblogChilddg/index.php(17): require('/Users/student/...')
+#7 {main}
+  thrown in /Users/student/Desktop/soundblogChilddg/wp-content/themes/twentyseventeen-child/template-parts/post/content.php on line 60
+[26-Nov-2018 17:02:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_field() in /Users/student/Desktop/soundblogChilddg/wp-content/themes/twentyseventeen-child/template-parts/post/content.php:60
+Stack trace:
+#0 /Users/student/Desktop/soundblogChilddg/wp-includes/template.php(690): require()
+#1 /Users/student/Desktop/soundblogChilddg/wp-includes/template.php(647): load_template('/Users/student/...', false)
+#2 /Users/student/Desktop/soundblogChilddg/wp-includes/general-template.php(155): locate_template(Array, true, false)
+#3 /Users/student/Desktop/soundblogChilddg/wp-content/themes/twentyseventeen/index.php(45): get_template_part('template-parts/...', '')
+#4 /Users/student/Desktop/soundblogChilddg/wp-includes/template-loader.php(74): include('/Users/student/...')
+#5 /Users/student/Desktop/soundblogChilddg/wp-blog-header.php(19): require_once('/Users/student/...')
+#6 /Users/student/Desktop/soundblogChilddg/index.php(17): require('/Users/student/...')
+#7 {main}
+  thrown in /Users/student/Desktop/soundblogChilddg/wp-content/themes/twentyseventeen-child/template-parts/post/content.php on line 60
+[26-Nov-2018 17:02:53 UTC] PHP Notice:  Trying to get property of non-object in /Users/student/Desktop/soundblogChilddg/wp-includes/post-template.php on line 298
+[26-Nov-2018 17:02:53 UTC] PHP Notice:  Trying to get property of non-object in /Users/student/Desktop/soundblogChilddg/wp-includes/post-template.php on line 298
+[26-Nov-2018 17:02:53 UTC] PHP Notice:  Trying to get property of non-object in /Users/student/Desktop/soundblogChilddg/wp-includes/post-template.php on line 298
+[26-Nov-2018 17:02:53 UTC] PHP Notice:  Trying to get property of non-object in /Users/student/Desktop/soundblogChilddg/wp-includes/post-template.php on line 298
+[26-Nov-2018 17:05:55 UTC] PHP Notice:  Trying to get property of non-object in /Users/student/Desktop/soundblogChilddg/wp-includes/post-template.php on line 298
+[26-Nov-2018 17:05:55 UTC] PHP Notice:  Trying to get property of non-object in /Users/student/Desktop/soundblogChilddg/wp-includes/post-template.php on line 298
+[26-Nov-2018 17:05:55 UTC] PHP Notice:  Trying to get property of non-object in /Users/student/Desktop/soundblogChilddg/wp-includes/post-template.php on line 298
+[26-Nov-2018 17:05:55 UTC] PHP Notice:  Trying to get property of non-object in /Users/student/Desktop/soundblogChilddg/wp-includes/post-template.php on line 298
+[26-Nov-2018 17:11:47 UTC] PHP Notice:  Trying to get property of non-object in /Users/student/Desktop/soundblogChilddg/wp-includes/post-template.php on line 298
+[26-Nov-2018 17:11:47 UTC] PHP Notice:  Trying to get property of non-object in /Users/student/Desktop/soundblogChilddg/wp-includes/post-template.php on line 298
+[26-Nov-2018 17:11:47 UTC] PHP Notice:  Trying to get property of non-object in /Users/student/Desktop/soundblogChilddg/wp-includes/post-template.php on line 298
+[26-Nov-2018 17:14:31 UTC] PHP Notice:  Trying to get property of non-object in /Users/student/Desktop/soundblogChilddg/wp-includes/post-template.php on line 298
+[26-Nov-2018 17:14:31 UTC] PHP Notice:  Trying to get property of non-object in /Users/student/Desktop/soundblogChilddg/wp-includes/post-template.php on line 298
+[26-Nov-2018 17:14:31 UTC] PHP Notice:  Trying to get property of non-object in /Users/student/Desktop/soundblogChilddg/wp-includes/post-template.php on line 298
+[26-Nov-2018 17:14:40 UTC] PHP Notice:  Trying to get property of non-object in /Users/student/Desktop/soundblogChilddg/wp-includes/post-template.php on line 298
+[26-Nov-2018 17:14:40 UTC] PHP Notice:  Trying to get property of non-object in /Users/student/Desktop/soundblogChilddg/wp-includes/post-template.php on line 298
+[26-Nov-2018 17:14:40 UTC] PHP Notice:  Trying to get property of non-object in /Users/student/Desktop/soundblogChilddg/wp-includes/post-template.php on line 298
+[26-Nov-2018 17:15:03 UTC] PHP Notice:  Trying to get property of non-object in /Users/student/Desktop/soundblogChilddg/wp-includes/post-template.php on line 298
+[26-Nov-2018 17:15:03 UTC] PHP Notice:  Trying to get property of non-object in /Users/student/Desktop/soundblogChilddg/wp-includes/post-template.php on line 298
+[26-Nov-2018 17:15:03 UTC] PHP Notice:  Trying to get property of non-object in /Users/student/Desktop/soundblogChilddg/wp-includes/post-template.php on line 298
+[26-Nov-2018 17:15:39 UTC] PHP Notice:  Trying to get property of non-object in /Users/student/Desktop/soundblogChilddg/wp-includes/post-template.php on line 298
+[26-Nov-2018 17:15:39 UTC] PHP Notice:  Trying to get property of non-object in /Users/student/Desktop/soundblogChilddg/wp-includes/post-template.php on line 298
+[26-Nov-2018 17:15:39 UTC] PHP Notice:  Trying to get property of non-object in /Users/student/Desktop/soundblogChilddg/wp-includes/post-template.php on line 298
+[26-Nov-2018 17:16:02 UTC] PHP Notice:  Trying to get property of non-object in /Users/student/Desktop/soundblogChilddg/wp-includes/post-template.php on line 298
+[26-Nov-2018 17:16:02 UTC] PHP Notice:  Trying to get property of non-object in /Users/student/Desktop/soundblogChilddg/wp-includes/post-template.php on line 298
+[26-Nov-2018 17:16:02 UTC] PHP Notice:  Trying to get property of non-object in /Users/student/Desktop/soundblogChilddg/wp-includes/post-template.php on line 298
+[26-Nov-2018 17:19:28 UTC] PHP Notice:  Trying to get property of non-object in /Users/student/Desktop/soundblogChilddg/wp-includes/post-template.php on line 298
+[26-Nov-2018 17:19:28 UTC] PHP Notice:  Trying to get property of non-object in /Users/student/Desktop/soundblogChilddg/wp-includes/post-template.php on line 298
+[26-Nov-2018 17:19:28 UTC] PHP Notice:  Trying to get property of non-object in /Users/student/Desktop/soundblogChilddg/wp-includes/post-template.php on line 298
+[26-Nov-2018 17:19:44 UTC] PHP Notice:  Trying to get property of non-object in /Users/student/Desktop/soundblogChilddg/wp-includes/post-template.php on line 298
+[26-Nov-2018 17:19:44 UTC] PHP Notice:  Trying to get property of non-object in /Users/student/Desktop/soundblogChilddg/wp-includes/post-template.php on line 298
+[26-Nov-2018 17:19:44 UTC] PHP Notice:  Trying to get property of non-object in /Users/student/Desktop/soundblogChilddg/wp-includes/post-template.php on line 298
+[26-Nov-2018 17:20:05 UTC] PHP Notice:  Trying to get property of non-object in /Users/student/Desktop/soundblogChilddg/wp-includes/post-template.php on line 298
+[26-Nov-2018 17:20:05 UTC] PHP Notice:  Trying to get property of non-object in /Users/student/Desktop/soundblogChilddg/wp-includes/post-template.php on line 298
+[26-Nov-2018 17:20:05 UTC] PHP Notice:  Trying to get property of non-object in /Users/student/Desktop/soundblogChilddg/wp-includes/post-template.php on line 298
