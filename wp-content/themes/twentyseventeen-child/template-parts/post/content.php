@@ -64,22 +64,22 @@
 			echo '</div>';
 		}
 
-		$posts = get_field('related_posts');
+		// $posts = get_field('related_posts');
 
-		if ($posts){
-			echo '<h1>Furthur Reading:</h1>';
-			echo '<ul class="related-list">';
-			foreach ($posts as $post):
-				setup_postdata($post);
-				echo '<li><a href = "'. get_the_permalink() . '">';
-				echo '<h3>' . get_the_title() . '</h3>';
-				the_excerpt();
-				echo '</a></li>';
-			endforeach;
-			echo '</ul>';
-			wp_reset_postdata();
+		// if ($posts){
+		// 	echo '<h1>Furthur Reading:</h1>';
+		// 	echo '<ul class="related-list">';
+		// 	foreach ($posts as $post):
+		// 		setup_postdata($post);
+		// 		echo '<li><a href = "'. get_the_permalink() . '">';
+		// 		echo '<h3>' . get_the_title() . '</h3>';
+		// 		the_excerpt();
+		// 		echo '</a></li>';
+		// 	endforeach;
+		// 	echo '</ul>';
+		// 	wp_reset_postdata();
 
-		}
+		// }
 
 		wp_link_pages( array(
 			'before'      => '<div class="page-links">' . __( 'Pages:', 'twentyseventeen' ),

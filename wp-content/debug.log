@@ -161,3 +161,25 @@ Stack trace:
 [26-Nov-2018 17:20:05 UTC] PHP Notice:  Trying to get property of non-object in /Users/student/Desktop/soundblogChilddg/wp-includes/post-template.php on line 298
 [26-Nov-2018 17:20:05 UTC] PHP Notice:  Trying to get property of non-object in /Users/student/Desktop/soundblogChilddg/wp-includes/post-template.php on line 298
 [26-Nov-2018 17:20:05 UTC] PHP Notice:  Trying to get property of non-object in /Users/student/Desktop/soundblogChilddg/wp-includes/post-template.php on line 298
+[26-Nov-2018 18:19:42 UTC] PHP Fatal error:  Uncaught Error: Call to a member function add_rewrite_tag() on null in /Users/student/Desktop/soundblogChilddg/wp-includes/rewrite.php:172
+Stack trace:
+#0 /Users/student/Desktop/soundblogChilddg/wp-includes/class-wp-post-type.php(543): add_rewrite_tag('%concerts%', '([^/]+)', 'concerts=')
+#1 /Users/student/Desktop/soundblogChilddg/wp-includes/post.php(1196): WP_Post_Type->add_rewrite_rules()
+#2 /Users/student/Desktop/soundblogChilddg/wp-content/plugins/concerts-custom-post.php(38): register_post_type('concerts', Array)
+#3 /Users/student/Desktop/soundblogChilddg/wp-settings.php(305): include_once('/Users/student/...')
+#4 /Users/student/Desktop/soundblogChilddg/wp-config.php(97): require_once('/Users/student/...')
+#5 /Users/student/Desktop/soundblogChilddg/wp-load.php(37): require_once('/Users/student/...')
+#6 /Users/student/Desktop/soundblogChilddg/wp-admin/admin-ajax.php(22): require_once('/Users/student/...')
+#7 {main}
+  thrown in /Users/student/Desktop/soundblogChilddg/wp-includes/rewrite.php on line 172
+[26-Nov-2018 18:19:44 UTC] PHP Fatal error:  Uncaught Error: Call to a member function add_rewrite_tag() on null in /Users/student/Desktop/soundblogChilddg/wp-includes/rewrite.php:172
+Stack trace:
+#0 /Users/student/Desktop/soundblogChilddg/wp-includes/class-wp-post-type.php(543): add_rewrite_tag('%concerts%', '([^/]+)', 'concerts=')
+#1 /Users/student/Desktop/soundblogChilddg/wp-includes/post.php(1196): WP_Post_Type->add_rewrite_rules()
+#2 /Users/student/Desktop/soundblogChilddg/wp-content/plugins/concerts-custom-post.php(38): register_post_type('concerts', Array)
+#3 /Users/student/Desktop/soundblogChilddg/wp-settings.php(305): include_once('/Users/student/...')
+#4 /Users/student/Desktop/soundblogChilddg/wp-config.php(97): require_once('/Users/student/...')
+#5 /Users/student/Desktop/soundblogChilddg/wp-load.php(37): require_once('/Users/student/...')
+#6 /Users/student/Desktop/soundblogChilddg/wp-admin/admin.php(31): require_once('/Users/student/...')
+#7 /Users/student/Desktop/soundblogChilddg/wp-admin/plugins.php(10): require_once('/Users/student/...')
+# in /Users/student/Desktop/soundblogChilddg/wp-includes/rewrite.php on line 172
